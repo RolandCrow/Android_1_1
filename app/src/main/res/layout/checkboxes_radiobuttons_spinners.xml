@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <CheckBox
+        android:id="@+id/cbxBox1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:checked="false"
+        />
+    <TextView
+        android:id="@+id/txtCheckBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_not_checked"
+        />
+    <RadioGroup
+        android:id="@+id/rgGroup1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/RB1" android:text="@string/button1" android:layout_height="wrap_content" android:layout_width="match_parent" />
+        <RadioButton android:id="@+id/RB2" android:text="@string/button2" android:layout_height="wrap_content" android:layout_width="match_parent"/>
+        <RadioButton android:id="@+id/RB3" android:text="@string/button3" android:layout_height="wrap_content" android:layout_width="match_parent"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/txtRadio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radiogroup_nothing_picked"
+        />
+    <Spinner
+        android:id="@+id/spnMusketeers"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        />
+</LinearLayout>

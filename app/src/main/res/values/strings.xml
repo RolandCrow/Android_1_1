@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Android 1.1</string>
+    <string name="log_it">Log it</string>
+    <string name="some_text">This is some text</string>
+    <string name="checkbox_not_checked">CheckBox: Not checked</string>
+    <string name="radiogroup_nothing_picked">RadioGroup: Nothing picked</string>
+    <string name="button1">Button1</string>
+    <string name="button2">Button2</string>
+    <string name="button3">Button3</string>
+    <string name="box_checked">CheckBox: Box is checked"</string>
+    <string name="rb1_picked">Radio: Button 1 picked</string>
+    <string name="rb2_picked">Radio: Button 2 picked</string>
+    <string name="rb3_picked">Radio: Button 3 picked</string>
+</resources>
