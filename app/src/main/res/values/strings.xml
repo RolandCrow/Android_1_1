@@ -11,4 +11,8 @@
     <string name="rb1_picked">Radio: Button 1 picked</string>
     <string name="rb2_picked">Radio: Button 2 picked</string>
     <string name="rb3_picked">Radio: Button 3 picked</string>
+    <string name="defaultLeftText">X coord\n</string>
+    <string name="defaultRightText">Y coord\n</string>
+    <string name="labelRed">Red\n</string>
+    <string name="labelGreen">Green\n\n</string>
 </resources>

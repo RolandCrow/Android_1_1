@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:orientation="vertical"
+    android:background=""
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/gray"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/complex_text1"
+            android:autofillHints=""
+            android:inputType="number"
+            android:text="@string/defaultLeftText"
+            android:focusable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/complex_text2"
+            android:autofillHints=""
+            android:inputType="number"
+            android:text="@string/defaultRightText"
+            android:focusable="false"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:orientation="horizontal"
+        android:background="@color/dk_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/complex_button1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/labelRed"
+            android:textColor="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/complex_button2"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/labelGreen"
+            android:textColor="@color/green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
